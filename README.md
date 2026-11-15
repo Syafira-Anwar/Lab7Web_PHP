@@ -43,17 +43,20 @@
 
 ## 4. Cara Menjalankan Server Lokal
 1. Buka aplikasi **XAMPP Control Panel**.
-2. Klik tombol **Start** pada modul **Apache** hingga statusnya berubah menjadi hijau (*Running*).
-3. Letakkan folder proyek **`Lab7Web_PHP`** ke dalam direktori penyimpanan server lokal, yaitu di:
+   <img width="952" height="566" alt="image" src="https://github.com/user-attachments/assets/a1ffde4e-b278-4567-859a-ff52e3e60ae0" />
+
+3. Klik tombol **Start** pada modul **Apache** hingga statusnya berubah menjadi hijau (*Running*).
+4. Letakkan folder proyek **`Lab7Web_PHP`** ke dalam direktori penyimpanan server lokal, yaitu di:
    ```text
-   C:\xampp\htdocs\Lab7web_php\
    ```
-4. Buka browser, lalu akses URL berikut untuk melihat daftar direktori atau menjalankan file:
+5. Buka browser, lalu akses URL berikut untuk melihat daftar direktori atau menjalankan file:
    ```text
    http://localhost/lab7_php/
    ```
-
+seperti pada gambar
 ---
+<img width="1627" height="997" alt="image" src="https://github.com/user-attachments/assets/26cd2676-38d6-4dc5-8af6-e6f288d22dfa" />
+
 
 ## 5. Struktur File Proyek
 * `index.php` — Latihan 1: Skrip dasar PHP dan fungsi waktu server.
@@ -91,7 +94,7 @@
    * **Output / Hasil:** Validasi sisi server menolak rentang nilai yang tidak valid (harga negatif dan jumlah di bawah 1), lalu mengeksekusi blok error:
      > *Periksa kembali nama barang, harga,
 
-## 7. Screenschoot hasil web browser
+## 7. Screenschoot hasil web browser mini project
 Berdasarkan tangkapan layar program web PHP yang dijalankan pada server lokal (http://localhost/miniproject_php/), berikut adalah penjelasan ringkasnya:   
 Fungsi Rupiah: Menampilkan informasi biaya kuliah per semester secara dinamis sebesar Rp 3.500.000 menggunakan fungsi PHP.   
 
