@@ -1,6 +1,6 @@
 # Laporan Praktikum Pemrograman Web - Lab 7 PHP
 **Mata Kuliah:** Pemrograman Web OBE  
-**Proyek:** `Lab7Web_PHP`
+**Proyek:** `[Lab7Web_PHP](http://localhost/lab7_php/)`
 
 ---
 
