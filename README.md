@@ -4,7 +4,7 @@
 
 ---
 
-## I. Laporan Praktikum dan Pengumpulan
+## 1. Laporan Praktikum dan Pengumpulan
 
 1. **Buat folder proyek bernama `Lab7_php`.**  
    Seluruh file skrip latihan PHP dan dokumentasi laporan ini disimpan di dalam satu direktori penampung utama pada web server lokal lab7_php.
@@ -25,7 +25,7 @@
 
 ---
 
-## II. Tujuan Praktikum
+## 2. Tujuan Praktikum
 * Memahami cara menjalankan skrip PHP di web server lokal (XAMPP / Apache).
 * Mempelajari penggunaan variabel, operator aritmatika, percabangan (`if-else`), dan perulangan (`foreach`).
 * Mampu membuat dan menggunakan fungsi kustom (*function*).
@@ -34,14 +34,14 @@
 
 ---
 
-## III. Perangkat yang Digunakan
+## 3. Perangkat yang Digunakan
 * **Web Server Lokal:** XAMPP (Apache & PHP Versi Terbaru)
 * **Code Editor:** Visual Studio Code
 * **Browser:** Google Chrome / Microsoft Edge
 
 ---
 
-## IV. Cara Menjalankan Server Lokal
+## 4. Cara Menjalankan Server Lokal
 1. Buka aplikasi **XAMPP Control Panel**.
 2. Klik tombol **Start** pada modul **Apache** hingga statusnya berubah menjadi hijau (*Running*).
 3. Letakkan folder proyek **`Lab7Web_PHP`** ke dalam direktori penyimpanan server lokal, yaitu di:
@@ -55,7 +55,7 @@
 
 ---
 
-## V. Struktur File Proyek
+## 5. Struktur File Proyek
 * `index.php` — Latihan 1: Skrip dasar PHP dan fungsi waktu server.
 * `latihan2.php` — Latihan 2: Variabel, operator, dan percabangan nilai akademik.
 * `latihan3.php` — Latihan 3: Perulangan `foreach` dan array daftar mahasiswa.
@@ -66,7 +66,7 @@
 
 ---
 
-## VI. Pengujian Kasus Input (Valid & Tidak Valid)
+## 6. Pengujian Kasus Input (Valid & Tidak Valid)
 
 ### A. Kasus Input Valid
 1. **Kasus Valid 1 (Latihan 6 - Form POST):**
@@ -89,4 +89,17 @@
 2. **Kasus Tidak Valid 2 (Latihan 7 - Harga Negatif & Jumlah Nol):**
    * **Input Data:** Nama Barang = `Pensil`, Harga = `-2000`, Jumlah = `0`
    * **Output / Hasil:** Validasi sisi server menolak rentang nilai yang tidak valid (harga negatif dan jumlah di bawah 1), lalu mengeksekusi blok error:
-     > *Periksa kembali nama barang, harga, 
+     > *Periksa kembali nama barang, harga,
+
+## 7. Screenschoot hasil web browser
+Berdasarkan tangkapan layar program web PHP yang dijalankan pada server lokal (http://localhost/miniproject_php/), berikut adalah penjelasan ringkasnya:   
+Fungsi Rupiah: Menampilkan informasi biaya kuliah per semester secara dinamis sebesar Rp 3.500.000 menggunakan fungsi PHP.   
+
+Pencarian Data (GET): Fitur pencarian nama mahasiswa menggunakan metode HTTP GET untuk menyaring data melalui URL.   
+
+Input Identitas & Penilaian (POST): Form utama menggunakan metode POST untuk mengirimkan data teks (Nama: Syafira, NIM: 312510179, Prodi: Teknik Informatika, Semester: 3, Email) serta komponen nilai (Tugas: 85, UTS: 90, UAS: 88) secara aman ke server.   
+
+Tombol Aksi: Tombol Kirim & Hitung memproses data di server, sedangkan Reset Form membersihkan isian form di sisi client (browser).   
+
+Hasil Pemrosesan: Server PHP berhasil memvalidasi, menghitung, dan menampilkan ringkasan data mahasiswa beserta perhitungan Nilai Rata-rata sebesar 87.67 secara otomatis pada kotak hijau di bagian bawah.   
+<img width="1921" height="966" alt="Screenshot 2026-11-15 104524" src="https://github.com/user-attachments/assets/80969e80-0f6b-4a08-b901-a174a43309df" />
