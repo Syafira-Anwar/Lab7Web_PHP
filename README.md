@@ -6,8 +6,8 @@
 
 ## I. Laporan Praktikum dan Pengumpulan
 
-1. **Buat folder proyek bernama `Lab7Web_PHP`.**  
-   Seluruh file skrip latihan PHP dan dokumentasi laporan ini disimpan di dalam satu direktori penampung utama pada web server lokal (`C:\xampp\htdocs\Lab7Web_PHP\`).
+1. **Buat folder proyek bernama `Lab7_php`.**  
+   Seluruh file skrip latihan PHP dan dokumentasi laporan ini disimpan di dalam satu direktori penampung utama pada web server lokal lab7_php.
 
 2. **Sertakan file PHP untuk setiap latihan dan mini project.**  
    Repositori ini memuat seluruh kode dari Latihan 1 sampai dengan Latihan 7 secara lengkap dan terstruktur.
@@ -46,11 +46,11 @@
 2. Klik tombol **Start** pada modul **Apache** hingga statusnya berubah menjadi hijau (*Running*).
 3. Letakkan folder proyek **`Lab7Web_PHP`** ke dalam direktori penyimpanan server lokal, yaitu di:
    ```text
-   C:\xampp\htdocs\Lab7Web_PHP\
+   C:\xampp\htdocs\Lab7web_php\
    ```
 4. Buka browser, lalu akses URL berikut untuk melihat daftar direktori atau menjalankan file:
    ```text
-   http://localhost/Lab7Web_PHP/
+   http://localhost/lab7_php/
    ```
 
 ---
@@ -73,7 +73,7 @@
    * **Input Data:** Nama = `Syafirah`, Program Studi = `Teknik Informatika`
    * **Output / Hasil:** Berhasil lolos validasi, sistem mencetak konfirmasi: 
      > *Data diterima*<br>
-     > *Nama: Syafirah*<br>
+     > *Nama: Syafira*<br>
      > *Program Studi: Teknik Informatika*
 2. **Kasus Valid 2 (Latihan 7 - Kalkulasi Transaksi):**
    * **Input Data:** Nama Barang = `Buku Tulis`, Harga = `5000`, Jumlah = `2`
