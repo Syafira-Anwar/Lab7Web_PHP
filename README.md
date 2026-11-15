@@ -53,10 +53,7 @@
    ```text
    http://localhost/lab7_php/
    ```
-seperti pada gambar
----
-<img width="1627" height="997" alt="image" src="https://github.com/user-attachments/assets/26cd2676-38d6-4dc5-8af6-e6f288d22dfa" />
-
+   
 
 ## 5. Struktur File Proyek
 * `index.php` — Latihan 1: Skrip dasar PHP dan fungsi waktu server.
@@ -94,8 +91,8 @@ seperti pada gambar
    * **Output / Hasil:** Validasi sisi server menolak rentang nilai yang tidak valid (harga negatif dan jumlah di bawah 1), lalu mengeksekusi blok error:
      > *Periksa kembali nama barang, harga,
 
-## 7. Screenschoot hasil web browser mini project
-Berdasarkan tangkapan layar program web PHP yang dijalankan pada server lokal (http://localhost/miniproject_php/), berikut adalah penjelasan ringkasnya:   
+## 7. Screenschoot hasil web browser lab7_php
+Berdasarkan tangkapan layar program web PHP yang dijalankan pada server lokal (http://localhost/lab7_php/), berikut adalah penjelasan ringkasnya:   
 Fungsi Rupiah: Menampilkan informasi biaya kuliah per semester secara dinamis sebesar Rp 3.500.000 menggunakan fungsi PHP.   
 
 Pencarian Data (GET): Fitur pencarian nama mahasiswa menggunakan metode HTTP GET untuk menyaring data melalui URL.   
@@ -105,4 +102,4 @@ Input Identitas & Penilaian (POST): Form utama menggunakan metode POST untuk men
 Tombol Aksi: Tombol Kirim & Hitung memproses data di server, sedangkan Reset Form membersihkan isian form di sisi client (browser).   
 
 Hasil Pemrosesan: Server PHP berhasil memvalidasi, menghitung, dan menampilkan ringkasan data mahasiswa beserta perhitungan Nilai Rata-rata sebesar 87.67 secara otomatis pada kotak hijau di bagian bawah.   
-<img width="1921" height="966" alt="Screenshot 2026-11-15 104524" src="https://github.com/user-attachments/assets/80969e80-0f6b-4a08-b901-a174a43309df" />
+<img width="1627" height="997" alt="image" src="https://github.com/user-attachments/assets/680f4b22-ef89-4cca-81d3-352dae021509" />
