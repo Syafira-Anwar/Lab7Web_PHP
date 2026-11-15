@@ -94,3 +94,22 @@
 ## 7. Screenschoot hasil web browser miniproject
 Berdasarkan tangkapan layar program web PHP yang dijalankan pada server lokal Gambar tersebut menampilkan halaman web lokal (localhost/miniproject_php/) yang berisi Form Input Data Mahasiswa.   Penjelasan ringkas dari komponen gambar:Formulir Isian: Berisi kolom data diri yang telah terisi (Nama: Syafira, NIM: 312510179, Program Studi: Teknik Informatika, Semester: 3, dan Email: syafiraanwar15@gmail.com) beserta tombol Kirim Data.   Hasil Pemrosesan (Kotak Hijau): Menunjukkan bahwa data telah berhasil dikirim (POST) dan divalidasi oleh skrip PHP, lalu merender ulang informasi data mahasiswa tersebut di bawah form.
 <img width="1921" height="976" alt="Screenshot 2026-11-15 105226" src="https://github.com/user-attachments/assets/ee98b475-833f-4b96-a261-f91502f304fa" />
+
+## 8. Hasil Langkah Kerja Praktikum
+
+Gambar tersebut menampilkan halaman web "Belajar PHP" yang berisi modul praktikum dasar pemrograman web, yang mencakup:
+
+Menampilkan Teks & Waktu Server: Menjalankan skrip dasar PHP dan menampilkan waktu server secara dinamis.
+
+Perhitungan Nilai Akhir: Menampilkan hasil perhitungan nilai dan predikat mahasiswa (Siti).
+
+Daftar Mahasiswa: Menampilkan array data nama mahasiswa (Alya, Bima, Citra, Doni).
+
+Perhitungan Diskon: Menghitung potongan harga otomatis (harga awal, diskon 10%, dan harga akhir).
+
+Form Pencarian (GET): Input pencarian data menggunakan metode HTTP GET.
+
+Form Input Data Mahasiswa (POST): Formulir untuk mengirimkan data nama dan program studi menggunakan metode HTTP POST.
+
+Perhitungan Subtotal Belanja: Formulir untuk menghitung total harga berdasarkan nama barang, harga satuan, dan jumlah pembelian.
+<img width="1627" height="997" alt="Screenshot 2026-11-15 112927" src="https://github.com/user-attachments/assets/9609ead2-1fcd-4cd7-8b49-84da8ac69bfd" />
