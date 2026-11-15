@@ -91,15 +91,6 @@
    * **Output / Hasil:** Validasi sisi server menolak rentang nilai yang tidak valid (harga negatif dan jumlah di bawah 1), lalu mengeksekusi blok error:
      > *Periksa kembali nama barang, harga,
 
-## 7. Screenschoot hasil web browser lab7_php
-Berdasarkan tangkapan layar program web PHP yang dijalankan pada server lokal (http://localhost/lab7_php/), berikut adalah penjelasan ringkasnya:   
-Fungsi Rupiah: Menampilkan informasi biaya kuliah per semester secara dinamis sebesar Rp 3.500.000 menggunakan fungsi PHP.   
-
-Pencarian Data (GET): Fitur pencarian nama mahasiswa menggunakan metode HTTP GET untuk menyaring data melalui URL.   
-
-Input Identitas & Penilaian (POST): Form utama menggunakan metode POST untuk mengirimkan data teks (Nama: Syafira, NIM: 312510179, Prodi: Teknik Informatika, Semester: 3, Email) serta komponen nilai (Tugas: 85, UTS: 90, UAS: 88) secara aman ke server.   
-
-Tombol Aksi: Tombol Kirim & Hitung memproses data di server, sedangkan Reset Form membersihkan isian form di sisi client (browser).   
-
-Hasil Pemrosesan: Server PHP berhasil memvalidasi, menghitung, dan menampilkan ringkasan data mahasiswa beserta perhitungan Nilai Rata-rata sebesar 87.67 secara otomatis pada kotak hijau di bagian bawah.   
-<img width="1627" height="997" alt="image" src="https://github.com/user-attachments/assets/680f4b22-ef89-4cca-81d3-352dae021509" />
+## 7. Screenschoot hasil web browser miniproject
+Berdasarkan tangkapan layar program web PHP yang dijalankan pada server lokal Gambar tersebut menampilkan halaman web lokal (localhost/miniproject_php/) yang berisi Form Input Data Mahasiswa.   Penjelasan ringkas dari komponen gambar:Formulir Isian: Berisi kolom data diri yang telah terisi (Nama: Syafira, NIM: 312510179, Program Studi: Teknik Informatika, Semester: 3, dan Email: syafiraanwar15@gmail.com) beserta tombol Kirim Data.   Hasil Pemrosesan (Kotak Hijau): Menunjukkan bahwa data telah berhasil dikirim (POST) dan divalidasi oleh skrip PHP, lalu merender ulang informasi data mahasiswa tersebut di bawah form.
+<img width="1921" height="976" alt="Screenshot 2026-11-15 105226" src="https://github.com/user-attachments/assets/ee98b475-833f-4b96-a261-f91502f304fa" />
